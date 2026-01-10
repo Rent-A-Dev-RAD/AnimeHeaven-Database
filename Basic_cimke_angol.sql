@@ -1,4 +1,4 @@
-INSERT INTO genres (name) VALUES 
+INSERT INTO cimke_lista (cimke_nev) VALUES 
 ('Action'),
 ('Adventure'),
 ('Avant Garde'),
