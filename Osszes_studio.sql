@@ -1,4 +1,4 @@
-INSERT INTO studios (name) VALUES 
+INSERT INTO studio_lista (studio_nev) VALUES 
 ('81 Produce'),
 ('10Gauge'),
 ('100studio'),
