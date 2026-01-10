@@ -52,13 +52,24 @@ CREATE TABLE `anime_adatlap` (
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `cimke`
+-- Tábla szerkezet ehhez a táblához `cimke_lista` (Előre definiált címkék)
 --
 
-CREATE TABLE `cimke` (
+CREATE TABLE `cimke_lista` (
+  `id` int(11) NOT NULL,
+  `cimke_nev` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `anime_cimke` (Kapcsolótábla)
+--
+
+CREATE TABLE `anime_cimke` (
   `id` int(11) NOT NULL,
   `anime_id` int(11) NOT NULL,
-  `cimke` varchar(255) DEFAULT NULL
+  `cimke_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 -- --------------------------------------------------------
@@ -96,8 +107,7 @@ CREATE TABLE `forras_elem` (
 
 CREATE TABLE `forras_tipus` (
   `id` int(11) NOT NULL,
-  `indavideo` varchar(50) DEFAULT NULL,
-  `videa` varchar(50) DEFAULT NULL
+  `nev` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 -- --------------------------------------------------------
@@ -157,13 +167,24 @@ CREATE TABLE `reszek` (
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `studiok`
+-- Tábla szerkezet ehhez a táblához `studio_lista` (Előre definiált stúdiók)
 --
 
-CREATE TABLE `studiok` (
+CREATE TABLE `studio_lista` (
+  `id` int(11) NOT NULL,
+  `studio_nev` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `anime_studio` (Kapcsolótábla)
+--
+
+CREATE TABLE `anime_studio` (
   `id` int(11) NOT NULL,
   `anime_id` int(11) NOT NULL,
-  `studio_nev` varchar(255) DEFAULT NULL
+  `studio_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
@@ -177,11 +198,19 @@ ALTER TABLE `anime_adatlap`
   ADD PRIMARY KEY (`id`);
 
 --
--- A tábla indexei `cimke`
+-- A tábla indexei `cimke_lista`
 --
-ALTER TABLE `cimke`
+ALTER TABLE `cimke_lista`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `anime_id` (`anime_id`);
+  ADD UNIQUE KEY `cimke_nev` (`cimke_nev`);
+
+--
+-- A tábla indexei `anime_cimke`
+--
+ALTER TABLE `anime_cimke`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `anime_id` (`anime_id`),
+  ADD KEY `cimke_id` (`cimke_id`);
 
 --
 -- A tábla indexei `elozmeny`
@@ -204,7 +233,8 @@ ALTER TABLE `forras_elem`
 -- A tábla indexei `forras_tipus`
 --
 ALTER TABLE `forras_tipus`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `nev` (`nev`);
 
 --
 -- A tábla indexei `lista_elem`
@@ -237,11 +267,19 @@ ALTER TABLE `reszek`
   ADD KEY `anime_id` (`anime_id`);
 
 --
--- A tábla indexei `studiok`
+-- A tábla indexei `studio_lista`
 --
-ALTER TABLE `studiok`
+ALTER TABLE `studio_lista`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `anime_id` (`anime_id`);
+  ADD UNIQUE KEY `studio_nev` (`studio_nev`);
+
+--
+-- A tábla indexei `anime_studio`
+--
+ALTER TABLE `anime_studio`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `anime_id` (`anime_id`),
+  ADD KEY `studio_id` (`studio_id`);
 
 --
 -- A kiírt táblák AUTO_INCREMENT értéke
@@ -254,9 +292,15 @@ ALTER TABLE `anime_adatlap`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT a táblához `cimke`
+-- AUTO_INCREMENT a táblához `cimke_lista`
 --
-ALTER TABLE `cimke`
+ALTER TABLE `cimke_lista`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT a táblához `anime_cimke`
+--
+ALTER TABLE `anime_cimke`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -302,9 +346,15 @@ ALTER TABLE `reszek`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT a táblához `studiok`
+-- AUTO_INCREMENT a táblához `studio_lista`
 --
-ALTER TABLE `studiok`
+ALTER TABLE `studio_lista`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT a táblához `anime_studio`
+--
+ALTER TABLE `anime_studio`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -312,10 +362,11 @@ ALTER TABLE `studiok`
 --
 
 --
--- Megkötések a táblához `cimke`
+-- Megkötések a táblához `anime_cimke`
 --
-ALTER TABLE `cimke`
-  ADD CONSTRAINT `cimke_ibfk_1` FOREIGN KEY (`anime_id`) REFERENCES `anime_adatlap` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `anime_cimke`
+  ADD CONSTRAINT `anime_cimke_ibfk_1` FOREIGN KEY (`anime_id`) REFERENCES `anime_adatlap` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `anime_cimke_ibfk_2` FOREIGN KEY (`cimke_id`) REFERENCES `cimke_lista` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Megkötések a táblához `elozmeny`
@@ -347,10 +398,11 @@ ALTER TABLE `reszek`
   ADD CONSTRAINT `reszek_ibfk_1` FOREIGN KEY (`anime_id`) REFERENCES `anime_adatlap` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Megkötések a táblához `studiok`
+-- Megkötések a táblához `anime_studio`
 --
-ALTER TABLE `studiok`
-  ADD CONSTRAINT `studiok_ibfk_1` FOREIGN KEY (`anime_id`) REFERENCES `anime_adatlap` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `anime_studio`
+  ADD CONSTRAINT `anime_studio_ibfk_1` FOREIGN KEY (`anime_id`) REFERENCES `anime_adatlap` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `anime_studio_ibfk_2` FOREIGN KEY (`studio_id`) REFERENCES `studio_lista` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
