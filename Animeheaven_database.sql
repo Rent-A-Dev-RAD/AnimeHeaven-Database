@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `anime_adatlap` (
   `id` int(11) NOT NULL,
-  `mal_link` varchar(255) DEFAULT NULL,
+  `mal_id` int(11) DEFAULT NULL,
   `borito` varchar(255) DEFAULT NULL,
   `hatter` varchar(255) DEFAULT NULL,
   `japan_cim` varchar(255) DEFAULT NULL,
