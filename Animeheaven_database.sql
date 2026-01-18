@@ -120,7 +120,8 @@ CREATE TABLE `lista_elem` (
   `id` int(11) NOT NULL,
   `profil_id` int(11) NOT NULL,
   `anime_id` int(11) NOT NULL,
-  `tipus_id` int(11) NOT NULL
+  `tipus_id` int(11) NOT NULL,
+  `hozzaadva` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 -- --------------------------------------------------------
