@@ -17,13 +17,18 @@ INSERT INTO `profil_adatlap` (`email`, `felhasznalonev`, `jelszo`, `salt`, `prof
 ('tesztuser@animeheaven.hu', 'TesztUser', '$2a$10$WXY456ZAB789CDE012FGH345IJK678LMN901OPQ234RST567UVW890', '$2a$10$WXY456ZAB789CDE012F', '/profiles/test.jpg', 1);
 
 -- Anime adatlap beszúrása (AUTO_INCREMENT generálja az id-t)
-INSERT INTO `anime_adatlap` (`mal_link`, `borito`, `hatter`, `japan_cim`, `angol_cim`, `leiras`, `megjelenes`, `besorolas`, `statusz`, `tipus`, `szezon`, `keszito`, `ertekeles`, `feltoltes_ido`, `lathatosag`, `osszes_epizod`, `jelenlegi_epizod`, `trailer`) VALUES
-('https://myanimelist.net/anime/44511', 'https://cdn.myanimelist.net/images/anime/1806/126216l.webp', 'https://image.tmdb.org/t/p/original/9x3TvkC3pZ1rH6j7A0Rzq1Z2VeB.jpg', 'Chainsaw Man', 'Chainsaw Man', 'Denji a szülei halála után hatalmas tartozást örököl. Hogy kifizesse, démonokra vadászik Pochita nevű démon-láncfűrész-kutyája segítségével. Nem vágynak másra, csak egy normális életre. Viszont a jakuza elárulja őket, így feldarabolva végzik egy szemetesben. Itt egyezséget kötnek, amelynek hála egy erősebb testen osztoznak majd. Ezután egy professzionális démonvadász csapat befogadja őket. Így a harc a normális életért tovább folyik.', '2022-10-12', 'R-17+', 'Befejezett', 'TV', '2022 ŐSZ', 'Naruto-Kun', 9.0, '2022-10-12', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/jk7QSGwupPA?enablejsapi=1&wmode=opaque&autoplay=0'),
-('https://myanimelist.net/anime/50346', 'https://cdn.myanimelist.net/images/anime/1045/123711l.webp', 'https://image.tmdb.org/t/p/original/veh7M4ho0vgqkW0n0hx1Up42elV.jpg', 'Yofukashi no Uta', 'Call Of The Night', 'Ko Yamori éjszakánként bolyong az utcákon, mert nem tud aludni. Egy éjszaka találkozik Nazuna Nanakusával, egy titokzatos lánnyal, aki felfedi, hogy vámpír. Nazuna megmutatja Ko-nak az éjszakai élet varázsát és szabadságát, miközben különös kapcsolat alakul ki közöttük.', '2022-07-08', 'R-17+', 'Befejezett', 'TV', '2022 Nyár', 'Black Ryuu Team', 8.9, '2022-07-08', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/a4bSbmqwhso?enablejsapi=1&wmode=opaque&autoplay=0'),
-('https://myanimelist.net/anime/40748', 'https://cdn.myanimelist.net/images/anime/1171/109222l.webp', 'https://image.tmdb.org/t/p/original/20r6g0KfiAKZ3qBaFvBMvZ0Qbzz.jpg', 'Jujutsu Kaisen', 'Jujutsu Kaisen', 'Yuuji Itadori egy rendkívüli fizikai képességekkel rendelkező középiskolás. Egyik napja azzal kezdődik, hogy találkozik egy jujutsu varázslóval, aki elátkozott tárgyakat kutat. Amikor barátai veszélybe kerülnek, Yuuji lenyeli egy erős átok ujját, hogy megmentse őket.', '2020-10-03', 'R-17+', 'Folyamatban', 'TV', '2020 Ősz', 'Naruto-Kun', 8.8, '2020-10-03', 1, '24', 24, 'https://www.youtube-nocookie.com/embed/4A_X-Dvl0ws?enablejsapi=1&wmode=opaque&autoplay=0'),
-('https://myanimelist.net/anime/48736', 'https://cdn.myanimelist.net/images/anime/1179/119897l.webp', 'https://image.tmdb.org/t/p/original/c22TSmxhIuKEHhY7YKKBdaHnR61.jpg', 'Sono Bisque Doll wa Koi wo Suru', 'My Dress-Up Darling', 'Wakana Gojou egy középiskolás fiú, aki hina babák készítésével foglalkozik. Egy nap osztálytársa, Marin Kitagawa felfedezi Wakana tehetségét, és megkéri, hogy segítsen neki cosplay jelmezek készítésében. Így kezdődik kettejük különleges barátsága.', '2022-01-09', 'PG-13', 'Befejezett', 'TV', '2022 Tél', 'AnimeCenter', 8.7, '2022-01-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/tFKDKd8z-NU?enablejsapi=1&wmode=opaque&autoplay=0'),
-('https://myanimelist.net/anime/1535', 'https://cdn.myanimelist.net/images/anime/9/9453l.webp', 'https://image.tmdb.org/t/p/original/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg', 'Death Note', 'Death Note', 'Light Yagami egy kiváló tanuló, aki egy különleges noteszre bukkan, a Death Note-ra. Bárki neve, akit a noteszba írnak, meghal. Light úgy dönt, hogy megtisztítja a világot a gonosztól, de hamarosan egy titokzatos nyomozó, L nyomába ered.', '2006-10-04', 'R-17+', 'Befejezett', 'TV', '2006 Ősz', 'Hidden Leaf Team', 8.6, '2006-10-04', 1, '37', 37, 'https://www.youtube-nocookie.com/embed/Vt_3c8BgxV4?enablejsapi=1&wmode=opaque&autoplay=0'),
-('https://myanimelist.net/anime/50739', 'https://cdn.myanimelist.net/images/anime/1240/133638l.webp', 'https://image.tmdb.org/t/p/original/eusdD22WIeV27BVQPSJz6YONtqf.jpg', 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken', 'The Angel Next Door Spoils Me Rotten', 'Amane Fujimiya egy magányos középiskolás fiú, aki egy napon találkozik szomszédjával, Mahiru Shiinával, akit az iskolában angyalnak hívnak. Amikor Mahiru észreveszi Amane rendetlen életmódját, eldönti, hogy gondoskodik róla.', '2023-01-07', 'PG-13', 'Befejezett', 'TV', '2023 Tél', 'Muteki Fansub', 9.0, '2023-01-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/IUq59ARXtdg?enablejsapi=1&wmode=opaque&autoplay=0');
+INSERT INTO `anime_adatlap` (`mal_id`, `borito`, `hatter`, `japan_cim`, `angol_cim`, `leiras`, `megjelenes`, `besorolas`, `statusz`, `tipus`, `szezon`, `keszito`, `ertekeles`, `feltoltes_ido`, `lathatosag`, `osszes_epizod`, `jelenlegi_epizod`, `trailer`) VALUES
+('44511', 'https://cdn.myanimelist.net/images/anime/1806/126216l.webp', 'https://image.tmdb.org/t/p/original/9x3TvkC3pZ1rH6j7A0Rzq1Z2VeB.jpg', 'Chainsaw Man', 'Chainsaw Man', 'Denji a szülei halála után hatalmas tartozást örököl. Hogy kifizesse, démonokra vadászik Pochita nevű démon-láncfűrész-kutyája segítségével. Nem vágynak másra, csak egy normális életre. Viszont a jakuza elárulja őket, így feldarabolva végzik egy szemetesben. Itt egyezséget kötnek, amelynek hála egy erősebb testen osztoznak majd. Ezután egy professzionális démonvadász csapat befogadja őket. Így a harc a normális életért tovább folyik.', '2022-10-12', 'R-17+', 'Befejezett', 'TV', '2022 ŐSZ', 'Naruto-Kun', 9.0, '2022-10-12', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/jk7QSGwupPA?enablejsapi=1&wmode=opaque&autoplay=0'),
+('50346', 'https://cdn.myanimelist.net/images/anime/1045/123711l.webp', 'https://image.tmdb.org/t/p/original/veh7M4ho0vgqkW0n0hx1Up42elV.jpg', 'Yofukashi no Uta', 'Call Of The Night', 'Ko Yamori éjszakánként bolyong az utcákon, mert nem tud aludni. Egy éjszaka találkozik Nazuna Nanakusával, egy titokzatos lánnyal, aki felfedi, hogy vámpír. Nazuna megmutatja Ko-nak az éjszakai élet varázsát és szabadságát, miközben különös kapcsolat alakul ki közöttük.', '2022-07-08', 'R-17+', 'Befejezett', 'TV', '2022 Nyár', 'Black Ryuu Team', 8.9, '2022-07-08', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/a4bSbmqwhso?enablejsapi=1&wmode=opaque&autoplay=0'),
+('40748', 'https://cdn.myanimelist.net/images/anime/1171/109222l.webp', 'https://image.tmdb.org/t/p/original/20r6g0KfiAKZ3qBaFvBMvZ0Qbzz.jpg', 'Jujutsu Kaisen', 'Jujutsu Kaisen', 'Yuuji Itadori egy rendkívüli fizikai képességekkel rendelkező középiskolás. Egyik napja azzal kezdődik, hogy találkozik egy jujutsu varázslóval, aki elátkozott tárgyakat kutat. Amikor barátai veszélybe kerülnek, Yuuji lenyeli egy erős átok ujját, hogy megmentse őket.', '2020-10-03', 'R-17+', 'Folyamatban', 'TV', '2020 Ősz', 'Naruto-Kun', 8.8, '2020-10-03', 1, '24', 24, 'https://www.youtube-nocookie.com/embed/4A_X-Dvl0ws?enablejsapi=1&wmode=opaque&autoplay=0'),
+('48736', 'https://cdn.myanimelist.net/images/anime/1179/119897l.webp', 'https://image.tmdb.org/t/p/original/c22TSmxhIuKEHhY7YKKBdaHnR61.jpg', 'Sono Bisque Doll wa Koi wo Suru', 'My Dress-Up Darling', 'Wakana Gojou egy középiskolás fiú, aki hina babák készítésével foglalkozik. Egy nap osztálytársa, Marin Kitagawa felfedezi Wakana tehetségét, és megkéri, hogy segítsen neki cosplay jelmezek készítésében. Így kezdődik kettejük különleges barátsága.', '2022-01-09', 'PG-13', 'Befejezett', 'TV', '2022 Tél', 'AnimeCenter', 8.7, '2022-01-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/tFKDKd8z-NU?enablejsapi=1&wmode=opaque&autoplay=0'),
+('1535', 'https://cdn.myanimelist.net/images/anime/9/9453l.webp', 'https://image.tmdb.org/t/p/original/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg', 'Death Note', 'Death Note', 'Light Yagami egy kiváló tanuló, aki egy különleges noteszre bukkan, a Death Note-ra. Bárki neve, akit a noteszba írnak, meghal. Light úgy dönt, hogy megtisztítja a világot a gonosztól, de hamarosan egy titokzatos nyomozó, L nyomába ered.', '2006-10-04', 'R-17+', 'Befejezett', 'TV', '2006 Ősz', 'Hidden Leaf Team', 8.6, '2006-10-04', 1, '37', 37, 'https://www.youtube-nocookie.com/embed/Vt_3c8BgxV4?enablejsapi=1&wmode=opaque&autoplay=0'),
+('50739', 'https://cdn.myanimelist.net/images/anime/1240/133638l.webp', 'https://image.tmdb.org/t/p/original/eusdD22WIeV27BVQPSJz6YONtqf.jpg', 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken', 'The Angel Next Door Spoils Me Rotten', 'Amane Fujimiya egy magányos középiskolás fiú, aki egy napon találkozik szomszédjával, Mahiru Shiinával, akit az iskolában angyalnak hívnak. Amikor Mahiru észreveszi Amane rendetlen életmódját, eldönti, hogy gondoskodik róla.', '2023-01-07', 'PG-13', 'Befejezett', 'TV', '2023 Tél', 'Muteki Fansub', 9.0, '2023-01-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/IUq59ARXtdg?enablejsapi=1&wmode=opaque&autoplay=0'),
+('61773', 'https://cdn.myanimelist.net/images/anime/1148/150376l.webp', 'https://image.tmdb.org/t/p/original/kARAcjWmKnb9mnDPRTU9zxs5Ad2.jpg', 'Let''s Play: Quest-darake no My Life', 'Let''s Play', 'Főiskolai évei alatt Sam Young órákat töltött kaland-logikai játékának, a Ruminate-nek a fejlesztésével. Annak ellenére, hogy gyerekként nagyon beteg volt, Sam igazi játékfejlesztő szeretne lenni. De amikor kedvenc játékstreamere, Marshall Law kipróbálja a játékot, szörnyen félreérti, és kijelenti, hogy ez a legrosszabb játék, amit valaha játszott. Ennek eredményeként rajongói negatív értékelésekkel bombázzák Sam játékát, veszélybe sodorva ezzel az álmait.<br><br>A helyzetet tovább rontja, hogy Marshall Sam új szomszédja lesz, nem tudva, hogy ő az a fejlesztő, akit olyan keményen kritizált. Bár Marshall gondoskodónak és kedvesnek tűnik, Samnek nehézséget okoz, hogy barátságot kötjön vele. Mielőtt második játékát, az Evermake-et kifejlesztheti, Samnek először ki kell találnia, hogyan hozhatja helyre tönkrement hírnevét.', '2025-10-02', 'PG-13', 'Befejezett', 'TV', '2025 ŐSZ', 'Rudolfskysub', 1, '2025-10-02', 6.76, '12', 12, 'https://www.youtube-nocookie.com/embed/ZmvyXUE_t_k?enablejsapi=1&wmode=opaque&autoplay=0'),
+('57555', 'https://cdn.myanimelist.net/images/anime/1763/150638l.webp', 'https://image.tmdb.org/t/p/original/xVlpyPgAjZiCcFYnKu87CNj55cu.jpg', 'Chainsaw Man Movie: Reze-hen', 'Chainsaw Man – The Movie: Reze Arc', 'A Chainsaw Man 1. évada után való folytatás.', '2025-09-19', '17+', 'Befejezett', 'Movie', '2025 ŐSZ', 'Muteki Fansub', 9.10, '2025-09-19', 1, '1', 1, 'https://www.youtube-nocookie.com/embed/VfoZp7CmOkE?enablejsapi=1&wmode=opaque&autoplay=0'),
+('50695', 'https://www.themoviedb.org/t/p/original/yuelUbcko5B25UgUKe30B3al2Z9.jpg', 'https://www.themoviedb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost', 'MF Ghost', 'A nagyon is közeli jövőben az elektromos önvezető autók már elterjedtnek számítanak Japán szerte. Kanata Livington, aki kivételes tehetségnek számít az autóversenyzés terén, éppen befejezte angliai tanulmányait, és hazatér a belső égésű benzinmotorral felszerelt kocsijával az immáron sofőr nélkül száguldó, elektromos autók hazájába.', '2023-10-02', 'PG-13', 'Befejezett', 'TV', '2023 ŐSZ', 'Akio-Fansub, AnimeDrive', 7.56, '2023-10-02', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zNWZjjkKfXs?enablejsapi=1&wmode=opaque&autoplay=0'),
+('57559', 'https://cdn.myanimelist.net/images/anime/1037/145338l.webp', 'https://image.tmdb.org/t/p/original/qEqLerjgjX9BL1fsqRc4MoWzqIU.jpg', 'MF Ghost 2nd Season', 'MF Ghost Season 2', 'Az MF Ghost 2. évadja', '2024-10-07', '13+', 'Befejezett', 'TV', '2024 ŐSZ', 'Lordminator', 7.81, '2024-10-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zn_3RAMZj9E?enablejsapi=1&wmode=opaque&autoplay=0'),
+('60602', 'https://cdn.myanimelist.net/images/anime/1419/154458l.webp', 'https://image.tmdb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost 3rd Season', 'MF Ghost Season 3', 'MF Ghost 3. évadja.', '2026-01-01', '13+', 'Fut', 'TV', '2026 TÉL', 'Lordminator', 8.03, '2026-01-01', 1, '?', 5, 'https://www.youtube-nocookie.com/embed/hUcDI5hSBPo?enablejsapi=1&wmode=opaque&autoplay=0');
 
 -- Anime-stúdió kapcsolatok beszúrása (a studio_lista táblából ID alapján)
 INSERT INTO `anime_studio` (`anime_id`, `studio_id`) 
@@ -35,7 +40,12 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND s.studio_nev = 'MAPPA')
    OR (a.angol_cim = 'Jujutsu Kaisen' AND s.studio_nev = 'MAPPA')
    OR (a.angol_cim = 'My Dress-Up Darling' AND s.studio_nev = 'CloverWorks')
    OR (a.angol_cim = 'Death Note' AND s.studio_nev = 'Madhouse')
-   OR (a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND s.studio_nev = 'Project No.9');
+   OR (a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND s.studio_nev = 'Project No.9')
+   OR (a.angol_cim = 'Let''s Play' AND s.studio_nev = 'OLM')
+   OR (a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND s.studio_nev = 'MAPPA')
+   OR (a.angol_cim = 'MF Ghost' AND s.studio_nev = 'Felix Film')
+   OR (a.angol_cim = 'MF Ghost Season 2' AND s.studio_nev = 'Felix Film')
+   OR (a.angol_cim = 'MF Ghost Season 3' AND s.studio_nev = 'Felix Film');
 
 -- Anime-címke kapcsolatok beszúrása (a cimke_lista táblából ID alapján)
 INSERT INTO `anime_cimke` (`anime_id`, `cimke_id`)
@@ -54,7 +64,22 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND c.cimke_nev = 'Action')
    OR (a.angol_cim = 'Death Note' AND c.cimke_nev = 'Suspense')
    OR (a.angol_cim = 'Death Note' AND c.cimke_nev = 'Supernatural')
    OR (a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND c.cimke_nev = 'Romance')
-   OR (a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND c.cimke_nev = 'Slice of Life');
+   OR (a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND c.cimke_nev = 'Slice of Life')
+   OR (a.angol_cim = 'Let''s Play' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'Let''s Play' AND c.cimke_nev = 'Romance')
+   OR (a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND c.cimke_nev = 'Action')
+   OR (a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND c.cimke_nev = 'Fantasy')
+   OR (a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND c.cimke_nev = 'Shounen')
+   OR (a.angol_cim = 'MF Ghost' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'MF Ghost' AND c.cimke_nev = 'Sports')
+   OR (a.angol_cim = 'MF Ghost' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'MF Ghost Season 2' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'MF Ghost Season 2' AND c.cimke_nev = 'Sports')
+   OR (a.angol_cim = 'MF Ghost Season 2' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Sports');
+
 
 -- Részek beszúrása - Chainsaw Man (12 rész)
 INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
@@ -184,6 +209,65 @@ SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'The Angel Ne
 SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'The Angel Next Door Spoils Me Rotten' UNION ALL
 SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'The Angel Next Door Spoils Me Rotten';
 
+-- Részek beszúrása - Let's Play (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Let''s Play';
+
+-- Részek beszúrása - Chainsaw Man Movie: Reze Arc (1 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, 'Film', 1 FROM anime_adatlap WHERE angol_cim = 'Chainsaw Man – The Movie: Reze Arc';
+
+-- Részek beszúrása - MF Ghost (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost';
+
+-- Részek beszúrása - MF Ghost Season 2 (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 2';
+
+-- Részek beszúrása - MF Ghost Season 3 (5 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3';
+
+
+
 -- Forrás elemek - Chainsaw Man (Videa linkek)
 INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
 SELECT ft.id, r.id, 'https://videa.hu/player?f=8.2115862.1265416.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Chainsaw Man' AND r.sorrend = 1 UNION ALL
@@ -311,3 +395,78 @@ SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7a02260740' FROM fo
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/f8d54e22e4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND r.sorrend = 10 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/60eb4cbc94' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND r.sorrend = 11 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/891dc7228d' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND r.sorrend = 12;
+
+-- Forrás elemek - Let's Play (Videa linkek - Link2)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560746.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560748.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560751.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560754.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560755.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560757.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560758.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560759.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560762.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560764.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560765.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3560766.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 12;
+
+-- Forrás elemek - Let's Play (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d66d262168' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/3d3d9f0d8c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/8a95a56701' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c56c8cc6d1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/3dbeb8f44b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d7c24a0cd4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/12ede6d57a' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/143b05de62' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/5e48f94d15' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/58112899a6' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4275627db7' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d86eccd741' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Let''s Play' AND r.sorrend = 12;
+
+-- Forrás elemek - Chainsaw Man Movie: Reze Arc (Videa link)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3543680.2511611.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND r.sorrend = 1;
+
+-- Forrás elemek - MF Ghost (Videa linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.2489879.2293168.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.2525235.2293168.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 2;
+
+-- Forrás elemek - MF Ghost (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/099e58472f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/877fd5e4b5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/405a5cebf1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/bb06183bbf' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/6599cfb69c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/1e082510f9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/af306d4f8e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/5eee4bc5ba' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/683a075798' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ed3d032401' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost' AND r.sorrend = 12;
+
+-- Forrás elemek - MF Ghost Season 2 (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/cd39c718c9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/37c2335883' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/b5be7f0eee' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/79764fadac' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d6e1f0b654' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c527b28370' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/2698ffec65' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d7d43aac94' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/6509501c6b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/af0574a569' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/74c9ea28db' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/bb560cd230' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 2' AND r.sorrend = 12;
+
+-- Forrás elemek - MF Ghost Season 3 (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/f9d74d0f4e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9d669499ea' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/baae22e48c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/21c3df38eb' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a5171b76a4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 5;
