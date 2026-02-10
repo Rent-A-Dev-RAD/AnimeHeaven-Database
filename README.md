@@ -35,4 +35,4 @@ Az adatbázis telepítése két egyszerű lépésből áll:
 
 ---
 
-*Készítette: AnimeHeaven Database projekt*
+*Készítette: Rent-A-Dev*
