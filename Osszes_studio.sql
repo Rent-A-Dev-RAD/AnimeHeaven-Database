@@ -824,7 +824,6 @@ INSERT INTO studio_lista (studio_nev) VALUES
 ('Atelier Peuplier'),
 ('Aura Studio'),
 ('Azuki'),
-('ABC Animation Studio'),
 ('BENTEN Film'),
 ('B.COOL STUDIO'),
 ('BIGBIGSUN'),
