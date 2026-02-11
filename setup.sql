@@ -47,7 +47,7 @@ DROP TABLE IF EXISTS `anime_adatlap`;
 -- ===============================================
 CREATE TABLE `anime_adatlap` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `mal_link` varchar(255) DEFAULT NULL,
+  `mal_id` int(11) DEFAULT NULL,
   `borito` varchar(255) DEFAULT NULL,
   `hatter` varchar(255) DEFAULT NULL,
   `japan_cim` varchar(255) DEFAULT NULL,
@@ -66,6 +66,7 @@ CREATE TABLE `anime_adatlap` (
   `jelenlegi_epizod` int(11) DEFAULT NULL,
   `trailer` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
+  UNIQUE KEY `mal_id` (`mal_id`),
   KEY `idx_statusz` (`statusz`),
   KEY `idx_ertekeles` (`ertekeles`),
   KEY `idx_lathatosag` (`lathatosag`)

@@ -3,6 +3,14 @@ INSERT INTO `forras_tipus` (`nev`) VALUES
 ('Indavideo'),
 ('Videa');
 
+-- Lista típusok beszúrása
+INSERT INTO `lista_tipus` (`tipus`) VALUES
+('Kedvenc'),
+('Megnézendő'),
+('Tetszett'),
+('Nem tetszett'),
+('Droppolt');
+
 -- Profil adatok beszúrása
 INSERT INTO `profil_adatlap` (`email`, `felhasznalonev`, `jelszo`, `salt`, `profilkep`, `jogosultsag`) VALUES
 ('tulajdonos@animeheaven.hu', 'Tulaj', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', '$2a$10$N9qo8uLOickgx2ZMRZoMye', '/profiles/tulaj.jpg', 5),
@@ -470,4 +478,141 @@ SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9d669499ea' FROM fo
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/baae22e48c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 3 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/21c3df38eb' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 4 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a5171b76a4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 5;
+
+-- Lista elemek beszúrása (Felhasználók listái)
+-- AnimeFan2024 listaelemei
+INSERT INTO `lista_elem` (`profil_id`, `anime_id`, `tipus_id`)
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND t.tipus = 'Kedvenc' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Jujutsu Kaisen' AND t.tipus = 'Tetszett' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND t.tipus = 'Kedvenc' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'MF Ghost Season 3' AND t.tipus = 'Megnézendő';
+
+-- OtakuMaster listaelemei
+INSERT INTO `lista_elem` (`profil_id`, `anime_id`, `tipus_id`)
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND t.tipus = 'Kedvenc' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND t.tipus = 'Tetszett' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'The Angel Next Door Spoils Me Rotten' AND t.tipus = 'Megnézendő' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Let''s Play' AND t.tipus = 'Droppolt';
+
+-- MangaReader listaelemei
+INSERT INTO `lista_elem` (`profil_id`, `anime_id`, `tipus_id`)
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND t.tipus = 'Tetszett' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND t.tipus = 'Megnézendő' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'MF Ghost' AND t.tipus = 'Nem tetszett' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND t.tipus = 'Kedvenc';
+
+-- TesztUser listaelemei
+INSERT INTO `lista_elem` (`profil_id`, `anime_id`, `tipus_id`)
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND t.tipus = 'Tetszett' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'MF Ghost Season 2' AND t.tipus = 'Megnézendő' UNION ALL
+SELECT p.id, a.id, t.id FROM profil_adatlap p, anime_adatlap a, lista_tipus t WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND t.tipus = 'Kedvenc';
+
+-- Előzmények beszúrása (Nézési történet)
+-- AnimeFan2024 előzményei - Chainsaw Man (12/12 rész) és Death Note (20/37 rész)
+INSERT INTO `elozmeny` (`profil_id`, `anime_id`, `resz_id`, `megnezve`)
+SELECT p.id, a.id, r.id, '2024-10-15 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-15 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-16 19:45:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-16 20:15:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-17 18:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-17 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-18 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-18 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-19 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-19 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-20 18:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 11 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-20 18:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 12 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-01 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-01 21:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-02 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-02 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-03 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-03 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-04 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-04 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-05 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-05 21:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-06 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 11 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-06 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 12 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-07 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 13 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-07 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 14 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-08 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 15 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-08 21:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 16 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-09 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 17 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-09 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 18 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-10 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 19 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-10 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'AnimeFan2024' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 20;
+
+-- OtakuMaster előzményei - My Dress-Up Darling (teljes), Call Of The Night (8 rész)
+INSERT INTO `elozmeny` (`profil_id`, `anime_id`, `resz_id`, `megnezve`)
+SELECT p.id, a.id, r.id, '2024-09-01 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-01 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-02 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-02 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-03 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-03 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-04 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-04 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-05 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-05 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-06 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 11 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-06 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 12 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-01 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-01 21:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-02 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-02 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-03 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-03 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-04 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-10-04 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'OtakuMaster' AND a.angol_cim = 'Call Of The Night' AND r.anime_id = a.id AND r.sorrend = 8;
+
+-- MangaReader előzményei - Jujutsu Kaisen (15 rész), Chainsaw Man (12/12 rész)
+INSERT INTO `elozmeny` (`profil_id`, `anime_id`, `resz_id`, `megnezve`)
+SELECT p.id, a.id, r.id, '2024-08-01 18:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-01 18:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-02 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-02 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-03 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-03 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-04 18:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-04 18:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-05 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-05 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-06 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 11 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-06 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 12 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-07 18:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 13 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-07 18:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 14 UNION ALL
+SELECT p.id, a.id, r.id, '2024-08-08 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Jujutsu Kaisen' AND r.anime_id = a.id AND r.sorrend = 15 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-15 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-15 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-16 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-16 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-17 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-17 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-18 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-18 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-19 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-19 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-20 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 11 UNION ALL
+SELECT p.id, a.id, r.id, '2024-09-20 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'MangaReader' AND a.angol_cim = 'Chainsaw Man' AND r.anime_id = a.id AND r.sorrend = 12;
+
+-- TesztUser előzményei - Death Note (10 rész), My Dress-Up Darling (6 rész)
+INSERT INTO `elozmeny` (`profil_id`, `anime_id`, `resz_id`, `megnezve`)
+SELECT p.id, a.id, r.id, '2024-11-15 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-15 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-16 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-16 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-17 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-17 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 6 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-18 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 7 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-18 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 8 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-19 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 9 UNION ALL
+SELECT p.id, a.id, r.id, '2024-11-19 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'Death Note' AND r.anime_id = a.id AND r.sorrend = 10 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-01 21:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 1 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-01 21:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 2 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-02 20:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 3 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-02 20:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 4 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-03 19:00:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 5 UNION ALL
+SELECT p.id, a.id, r.id, '2024-12-03 19:30:00' FROM profil_adatlap p, anime_adatlap a, reszek r WHERE p.felhasznalonev = 'TesztUser' AND a.angol_cim = 'My Dress-Up Darling' AND r.anime_id = a.id AND r.sorrend = 6;
+
 

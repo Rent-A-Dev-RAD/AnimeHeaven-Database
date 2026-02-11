@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 -- Adatbázis: `animeheaven_database`
 --
 
+CREATE DATABASE IF NOT EXISTS `animeheaven_database` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_hungarian_ci;
+USE `animeheaven_database`;
+
 -- --------------------------------------------------------
 
 --
