@@ -148,7 +148,7 @@ CREATE TABLE `profil_adatlap` (
   `jelszo` varchar(255) NOT NULL,
   `salt` varchar(64) NOT NULL COMMENT 'Csak egyedi hash algoritmus esetén! Bcrypt/Argon2 nem igényli.',
   `profilkep` varchar(255) DEFAULT NULL,
-  `jogosultsag` int(2) NOT NULL DEFAULT 0,
+  `jogosultsag` int(2) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 -- --------------------------------------------------------
