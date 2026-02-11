@@ -196,7 +196,7 @@ CREATE TABLE `anime_studio` (
 -- A tábla indexei `anime_adatlap`
 --
 ALTER TABLE `anime_adatlap`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `mal_id` (`mal_id`);
 
 --
