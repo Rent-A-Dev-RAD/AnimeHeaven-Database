@@ -129,6 +129,7 @@ INSERT INTO studio_lista (studio_nev) VALUES
 ('Craftar Studios'),
 ('CLAP'),
 ('Cloud Hearts'),
+('CloverWorks'),
 ('CBS Sony Group'),
 ('Chiptune'),
 ('Creative Power Entertaining'),

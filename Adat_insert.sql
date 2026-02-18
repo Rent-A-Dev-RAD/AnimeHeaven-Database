@@ -31,12 +31,15 @@ INSERT INTO `anime_adatlap` (`mal_id`, `borito`, `hatter`, `japan_cim`, `angol_c
 ('40748', 'https://cdn.myanimelist.net/images/anime/1171/109222l.webp', 'https://image.tmdb.org/t/p/original/j0gsESaBzFmYVhnBTXzIE9PsgY8.jpg', 'Jujutsu Kaisen', 'Jujutsu Kaisen', 'Yuuji Itadori egy rendkívüli fizikai képességekkel rendelkező középiskolás. Egyik napja azzal kezdődik, hogy találkozik egy jujutsu varázslóval, aki elátkozott tárgyakat kutat. Amikor barátai veszélybe kerülnek, Yuuji lenyeli egy erős átok ujját, hogy megmentse őket.', '2020-10-03', 'R-17+', 'Folyamatban', 'TV', '2020 Ősz', 'Naruto-Kun', 8.8, '2020-10-03', 1, '24', 24, 'https://www.youtube-nocookie.com/embed/4A_X-Dvl0ws?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('48736', 'https://cdn.myanimelist.net/images/anime/1179/119897l.webp', 'https://image.tmdb.org/t/p/original/lt6iImp0S1cFOUs8i0hr1ycqyCu.jpg', 'Sono Bisque Doll wa Koi wo Suru', 'My Dress-Up Darling', 'Wakana Gojou egy középiskolás fiú, aki hina babák készítésével foglalkozik. Egy nap osztálytársa, Marin Kitagawa felfedezi Wakana tehetségét, és megkéri, hogy segítsen neki cosplay jelmezek készítésében. Így kezdődik kettejük különleges barátsága.', '2022-01-09', 'PG-13', 'Befejezett', 'TV', '2022 Tél', 'AnimeCenter', 8.7, '2022-01-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/tFKDKd8z-NU?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('1535', 'https://cdn.myanimelist.net/images/anime/9/9453l.webp', 'https://image.tmdb.org/t/p/original/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg', 'Death Note', 'Death Note', 'Light Yagami egy kiváló tanuló, aki egy különleges noteszre bukkan, a Death Note-ra. Bárki neve, akit a noteszba írnak, meghal. Light úgy dönt, hogy megtisztítja a világot a gonosztól, de hamarosan egy titokzatos nyomozó, L nyomába ered.', '2006-10-04', 'R-17+', 'Befejezett', 'TV', '2006 Ősz', 'Hidden Leaf Team', 8.6, '2006-10-04', 1, '37', 37, 'https://www.youtube-nocookie.com/embed/Vt_3c8BgxV4?enablejsapi=1&wmode=opaque&autoplay=0'),
-('50739', 'https://cdn.myanimelist.net/images/anime/1240/133638l.webp', 'https://image.tmdb.org/t/p/original/lt6iImp0S1cFOUs8i0hr1ycqyCu.jpg', 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken', 'The Angel Next Door Spoils Me Rotten', 'Amane Fujimiya egy magányos középiskolás fiú, aki egy napon találkozik szomszédjával, Mahiru Shiinával, akit az iskolában angyalnak hívnak. Amikor Mahiru észreveszi Amane rendetlen életmódját, eldönti, hogy gondoskodik róla.', '2023-01-07', 'PG-13', 'Befejezett', 'TV', '2023 Tél', 'Muteki Fansub', 9.0, '2023-01-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/IUq59ARXtdg?enablejsapi=1&wmode=opaque&autoplay=0'),
+('50739', 'https://cdn.myanimelist.net/images/anime/1240/133638l.webp', 'https://image.tmdb.org/t/p/original/eusdD22WIeV27BVQPSJz6YONtqf.jpg', 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken', 'The Angel Next Door Spoils Me Rotten', 'Amane Fujimiya egy magányos középiskolás fiú, aki egy napon találkozik szomszédjával, Mahiru Shiinával, akit az iskolában angyalnak hívnak. Amikor Mahiru észreveszi Amane rendetlen életmódját, eldönti, hogy gondoskodik róla.', '2023-01-07', 'PG-13', 'Befejezett', 'TV', '2023 Tél', 'Muteki Fansub', 9.0, '2023-01-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/IUq59ARXtdg?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('61773', 'https://cdn.myanimelist.net/images/anime/1148/150376l.webp', 'https://image.tmdb.org/t/p/original/kARAcjWmKnb9mnDPRTU9zxs5Ad2.jpg', 'Let''s Play: Quest-darake no My Life', 'Let''s Play', 'Főiskolai évei alatt Sam Young órákat töltött kaland-logikai játékának, a Ruminate-nek a fejlesztésével. Annak ellenére, hogy gyerekként nagyon beteg volt, Sam igazi játékfejlesztő szeretne lenni. De amikor kedvenc játékstreamere, Marshall Law kipróbálja a játékot, szörnyen félreérti, és kijelenti, hogy ez a legrosszabb játék, amit valaha játszott. Ennek eredményeként rajongói negatív értékelésekkel bombázzák Sam játékát, veszélybe sodorva ezzel az álmait.<br><br>A helyzetet tovább rontja, hogy Marshall Sam új szomszédja lesz, nem tudva, hogy ő az a fejlesztő, akit olyan keményen kritizált. Bár Marshall gondoskodónak és kedvesnek tűnik, Samnek nehézséget okoz, hogy barátságot kötjön vele. Mielőtt második játékát, az Evermake-et kifejlesztheti, Samnek először ki kell találnia, hogyan hozhatja helyre tönkrement hírnevét.', '2025-10-02', 'PG-13', 'Befejezett', 'TV', '2025 ŐSZ', 'Rudolfskysub', 1, '2025-10-02', 6.76, '12', 12, 'https://www.youtube-nocookie.com/embed/ZmvyXUE_t_k?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('57555', 'https://cdn.myanimelist.net/images/anime/1763/150638l.webp', 'https://image.tmdb.org/t/p/original/xVlpyPgAjZiCcFYnKu87CNj55cu.jpg', 'Chainsaw Man Movie: Reze-hen', 'Chainsaw Man – The Movie: Reze Arc', 'A Chainsaw Man 1. évada után való folytatás.', '2025-09-19', '17+', 'Befejezett', 'Movie', '2025 ŐSZ', 'Muteki Fansub', 9.10, '2025-09-19', 1, '1', 1, 'https://www.youtube-nocookie.com/embed/VfoZp7CmOkE?enablejsapi=1&wmode=opaque&autoplay=0'),
+('42897', 'https://cdn.myanimelist.net/images/anime/1695/111486l.jpg', 'https://www.themoviedb.org/t/p/original/xNd77OTbhuqp8nMZzv55USSRJDo.jpg', 'Horimiya', 'Horimiya', 'Hori Kyoko látszatra egy átlagos tizenéves lánynak tűnhet, ám ez koránt sem igaz. A munkamániás szülei távollétében vigyáznia kell kisöccsére, Sotára, emellett főznie és takarítania is kell magukra. Ennek következtében nincs ideje a szokásos tinik társadalmi életét élnie. Erős felelősségtudata mellett nem hogy a karaokét, de még egy fél órás fagyizást sem engedhet meg magának tanítás után. Bárhová hívják barátai, ügyesen kibújik a tényleges válasz alól. Ám egy nap véletlenül találkozik valakivel, aki mint később kiderült, nem is annyira idegen, a látszatra csendes, szemüveges, sötét jellemű, pletykák szerint otaku osztálytársával, Miyamura Izumival. Később maga Hori jön rá, hogy bármit, amit gondolt, bármit, amit hallott a fiúról, az mind ellentéte annak, amint jobban megismeri a másik oldalát.', '2021-01-10', 'PG-13', 'Befejezett', 'TV', '2021 TÉL', 'AnimeGun Subs & Dark-Subs', 8.18, '2021-01-10', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/e4RCugyx5No?enablejsapi=1&wmode=opaque&autoplay=0'),
+('54856', 'https://image.tmdb.org/t/p/original/uj83treg58OvYnAAV9VF9p9qron.jpg', 'https://www.themoviedb.org/t/p/original/mNFcBM82O0AG5pU9JwOcJqH98G9.jpg', 'Horimiya: Piece', 'Horimiya: The Missing Pieces', 'Hori Kyoko látszatra egy átlagos tizenéves lánynak tűnhet, ám ez koránt sem igaz. A munkamániás szülei távollétében vigyáznia kell kisöccsére, Sotára, emellett főznie és takarítania is kell magukra. Ennek következtében nincs ideje a szokásos tinik társadalmi életét élnie. Erős felelősségtudata mellett nem hogy a karaokét, de még egy fél órás fagyizást sem engedhet meg magának tanítás után. Bárhová hívják barátai, ügyesen kibújik a tényleges válasz alól. Ám egy nap véletlenül találkozik valakivel, aki mint később kiderült, nem is annyira idegen, a látszatra csendes, szemüveges, sötét jellemű, pletykák szerint otaku osztálytársával, Miyamura Izumival. Később maga Hori jön rá, hogy bármit, amit gondolt, bármit, amit hallott a fiúról, az mind ellentéte annak, amint jobban megismeri a másik oldalát.', '2023-07-01', 'PG-13', 'Befejezett', 'TV', '2023 NYÁR', 'AnimeTrix', 8.12, '2023-07-01', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/MU-Vk5R0vVY?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('50695', 'https://www.themoviedb.org/t/p/original/yuelUbcko5B25UgUKe30B3al2Z9.jpg', 'https://www.themoviedb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost', 'MF Ghost', 'A nagyon is közeli jövőben az elektromos önvezető autók már elterjedtnek számítanak Japán szerte. Kanata Livington, aki kivételes tehetségnek számít az autóversenyzés terén, éppen befejezte angliai tanulmányait, és hazatér a belső égésű benzinmotorral felszerelt kocsijával az immáron sofőr nélkül száguldó, elektromos autók hazájába.', '2023-10-02', 'PG-13', 'Befejezett', 'TV', '2023 ŐSZ', 'Akio-Fansub, AnimeDrive', 7.56, '2023-10-02', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zNWZjjkKfXs?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('57559', 'https://cdn.myanimelist.net/images/anime/1037/145338l.webp', 'https://image.tmdb.org/t/p/original/qEqLerjgjX9BL1fsqRc4MoWzqIU.jpg', 'MF Ghost 2nd Season', 'MF Ghost Season 2', 'Az MF Ghost 2. évadja', '2024-10-07', '13+', 'Befejezett', 'TV', '2024 ŐSZ', 'Lordminator', 7.81, '2024-10-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zn_3RAMZj9E?enablejsapi=1&wmode=opaque&autoplay=0'),
-('60602', 'https://cdn.myanimelist.net/images/anime/1419/154458l.webp', 'https://image.tmdb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost 3rd Season', 'MF Ghost Season 3', 'MF Ghost 3. évadja.', '2026-01-01', '13+', 'Fut', 'TV', '2026 TÉL', 'Lordminator', 8.03, '2026-01-01', 1, '?', 5, 'https://www.youtube-nocookie.com/embed/hUcDI5hSBPo?enablejsapi=1&wmode=opaque&autoplay=0');
+('60602', 'https://cdn.myanimelist.net/images/anime/1419/154458l.webp', 'https://image.tmdb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost 3rd Season', 'MF Ghost Season 3', 'MF Ghost 3. évadja.', '2026-01-01', '13+', 'Fut', 'TV', '2026 TÉL', 'Lordminator', 8.03, '2026-01-01', 1, '?', 5, 'https://www.youtube-nocookie.com/embed/hUcDI5hSBPo?enablejsapi=1&wmode=opaque&autoplay=0'),
+('877', 'https://cdn.myanimelist.net/images/anime/2/11232l.webp', 'https://image.tmdb.org/t/p/original/xqbimh1vOdiGAYnu0bz3y3TcIBj.jpg', 'Nana', 'Nana (Szinkronos)', 'Tartalmazza a Nana Soushuuhen: Junko no Heya epizódokat, azaz a 11,5., a 21,5. és a 36,5. részeket, ezek mindig az előttük játszódó egységeket dolgozzák fel. A narrálással (egy másik szereplő elbeszélésével) és a külsős megfigyeléssel lesz kicsit másabb. Így a sztori egyes részei kicsit más megvilágításba kerülnek. Történet: Két huszonéves lány tart Tokióba, hogy megvalósítsák nagyon különböző álmaikat, és mindkettőjüket Nanának hívják. Komatsu Nana egy vidéki polgári család lánya, naív, nyílt, és folyton szerelmes; Osaki Nana egy félárva punkzenész - határozott, kemény lány, aki önmagát és karrierjét keresni megy a fővárosba. A sors úgy hozza, hogy a két Nana először a vonaton, majd Tokióban is találkozik, végül lakótársak lesznek. Szerelmek és szakítások, siker és bukás, boldogság és tragédiák kísérik a felnőtté válásukat.', '2006-04-05', 'R-17+', 'Befejezett', 'TV', '2006 TAVASZ', 'Szinkronos', 8.57, '2006-04-05', 1, '50', 50, 'https://www.youtube-nocookie.com/embed/Tad-n4Xh3nI?enablejsapi=1&wmode=opaque&autoplay=0');
 
 -- Anime-stúdió kapcsolatok beszúrása (a studio_lista táblából ID alapján)
 INSERT INTO `anime_studio` (`anime_id`, `studio_id`) 
@@ -53,7 +56,10 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND s.studio_nev = 'MAPPA')
    OR (a.angol_cim = 'Chainsaw Man – The Movie: Reze Arc' AND s.studio_nev = 'MAPPA')
    OR (a.angol_cim = 'MF Ghost' AND s.studio_nev = 'Felix Film')
    OR (a.angol_cim = 'MF Ghost Season 2' AND s.studio_nev = 'Felix Film')
-   OR (a.angol_cim = 'MF Ghost Season 3' AND s.studio_nev = 'Felix Film');
+   OR (a.angol_cim = 'MF Ghost Season 3' AND s.studio_nev = 'Felix Film')
+   OR (a.angol_cim = 'Nana (Szinkronos)' AND s.studio_nev = 'Madhouse')
+   OR (a.angol_cim = 'Horimiya' AND s.studio_nev = 'CloverWorks')
+   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND s.studio_nev = 'CloverWorks');
 
 -- Anime-címke kapcsolatok beszúrása (a cimke_lista táblából ID alapján)
 INSERT INTO `anime_cimke` (`anime_id`, `cimke_id`)
@@ -86,7 +92,14 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND c.cimke_nev = 'Action')
    OR (a.angol_cim = 'MF Ghost Season 2' AND c.cimke_nev = 'Drama')
    OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Drama')
    OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Seinen')
-   OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Sports');
+   OR (a.angol_cim = 'MF Ghost Season 3' AND c.cimke_nev = 'Sports')
+   OR (a.angol_cim = 'Nana (Szinkronos)' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'Nana (Szinkronos)' AND c.cimke_nev = 'Romance')
+   OR (a.angol_cim = 'Nana (Szinkronos)' AND c.cimke_nev = 'Shoujo')
+   OR (a.angol_cim = 'Horimiya' AND c.cimke_nev = 'Romance')
+   OR (a.angol_cim = 'Horimiya' AND c.cimke_nev = 'Shounen')
+   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND c.cimke_nev = 'Romance')
+   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND c.cimke_nev = 'Shounen');
 
 
 -- Részek beszúrása - Chainsaw Man (12 rész)
@@ -274,7 +287,260 @@ SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Seaso
 SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3' UNION ALL
 SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'MF Ghost Season 3';
 
+-- Részek beszúrása - Nana (Szinkronos) (47 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 12, '11_5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 13, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 14, '13. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 15, '14. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 16, '15. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 17, '16. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 18, '17. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 19, '18. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 20, '19. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 21, '20. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 22, '21. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 23, '21_5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 24, '22. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 25, '23. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 26, '24. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 27, '25. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 28, '26. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 29, '27. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 30, '28. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 31, '29. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 32, '30. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 33, '31. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 34, '32. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 35, '33. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 36, '34. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 37, '35. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 38, '36. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 39, '36_5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 40, '37. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 41, '38. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 42, '39. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 43, '40. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 44, '41. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 45, '42. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 46, '43. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 47, '44. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 48, '45. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 49, '46. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
+SELECT id, 50, '47. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)';
 
+-- Forrás elemek - Nana (Szinkronos) (Videa linkek - 50 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536427.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536425.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536423.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536422.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536421.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536420.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536419.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536418.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536417.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536416.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536415.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536414.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536414.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 13 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536411.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 14 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536409.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 15 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536407.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 16 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536406.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 17 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536405.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 18 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536403.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 19 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536402.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 20 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536401.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 21 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536399.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 22 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536397.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 23 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536395.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 24 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536394.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 25 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536393.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 26 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536391.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 27 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536387.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 28 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536387.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 29 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536385.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 30 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536383.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 31 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536381.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 32 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536376.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 33 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536372.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 34 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536377.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 35 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536368.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 36 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536366.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 37 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536363.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 38 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536361.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 39 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536361.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 40 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536356.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 41 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536351.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 42 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536349.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 43 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536357.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 44 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536344.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 45 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536342.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 46 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536340.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 47 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536338.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 48 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536335.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 49 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3536334.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 50;
+
+-- Forrás elemek - Nana (Szinkronos) (Indavideo linkek - 50 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E01' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E02' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E03' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E04' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E05' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E06' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E07' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E08' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E09' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E10' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E11' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E11_5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E12' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 13 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E13' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 14 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E14' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 15 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E15' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 16 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E16' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 17 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E17' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 18 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E18' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 19 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E19' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 20 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E20' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 21 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E21' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 22 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E21_5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 23 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E22' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 24 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E23' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 25 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E24' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 26 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E25' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 27 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E26' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 28 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E27' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 29 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E28' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 30 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E29' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 31 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E30' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 32 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E31' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 33 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E32' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 34 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E33' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 35 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E34' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 36 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E35' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 37 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E36' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 38 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E36_5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 39 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E37' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 40 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E38' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 41 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E39' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 42 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E40' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 43 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E41' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 44 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E42' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 45 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E43' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 46 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E44' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 47 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E45' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 48 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E46' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 49 UNION ALL
+SELECT ft.id, r.id, 'https://indavideo.hu/video/Nana_Szink_S01E47' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Nana (Szinkronos)' AND r.sorrend = 50;
+
+-- Részek beszúrása - Horimiya (13 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya' UNION ALL
+SELECT id, 13, '13. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya';
+
+-- Forrás elemek - Horimiya (Videa linkek - 13 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512186.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512191.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512195.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512196.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512203.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512206.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512209.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512210.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512212.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512215.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512217.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512222.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3512226.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya' AND r.sorrend = 13;
+
+-- Forrás elemek - Horimiya (Indavideo linkek - 13 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9573c794b9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/785f2c2b7e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c296a70149' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4cdb1b0d49' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/43b1d82580' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/5af48c15c8' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/661fe5f4f1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/12cc8e6ff1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/342f8a0df7' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4e5ef5c817' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/b25f90a4c8' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/432d24adbf' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/1dbebe332f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya' AND r.sorrend = 13;
+
+-- Részek beszúrása - Horimiya: The Missing Pieces (13 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces' UNION ALL
+SELECT id, 13, '13. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Horimiya: The Missing Pieces';
+
+-- Forrás elemek - Horimiya: The Missing Pieces (Videa linkek - 13 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614726.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614728.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614729.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614731.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614734.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614736.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614740.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614742.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614744.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614746.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614749.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614750.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://videa.hu/player?f=8.3614770.2567651.0' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Videa' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 13;
+
+-- Forrás elemek - Horimiya: The Missing Pieces (Indavideo linkek - 13 rész)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7fb82b04ab' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a288885c84' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/6f0461de5a' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7b5696b6af' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d485984132' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/53a3a132d7' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/044d2b204c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/5cdb432c01' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/b780054ecf' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/de8efd45e6' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/414fad9d90' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/1945c7ada8' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 12 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a6dffb538f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Horimiya: The Missing Pieces' AND r.sorrend = 13;
 
 -- Forrás elemek - Chainsaw Man (Videa linkek)
 INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
