@@ -32,14 +32,19 @@ INSERT INTO `anime_adatlap` (`mal_id`, `borito`, `hatter`, `japan_cim`, `angol_c
 ('48736', 'https://cdn.myanimelist.net/images/anime/1179/119897l.webp', 'https://image.tmdb.org/t/p/original/lt6iImp0S1cFOUs8i0hr1ycqyCu.jpg', 'Sono Bisque Doll wa Koi wo Suru', 'My Dress-Up Darling', 'Wakana Gojou egy középiskolás fiú, aki hina babák készítésével foglalkozik. Egy nap osztálytársa, Marin Kitagawa felfedezi Wakana tehetségét, és megkéri, hogy segítsen neki cosplay jelmezek készítésében. Így kezdődik kettejük különleges barátsága.', '2022-01-09', 'PG-13', 'Befejezett', 'TV', '2022 Tél', 'AnimeCenter', 8.7, '2022-01-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/tFKDKd8z-NU?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('1535', 'https://cdn.myanimelist.net/images/anime/9/9453l.webp', 'https://image.tmdb.org/t/p/original/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg', 'Death Note', 'Death Note', 'Light Yagami egy kiváló tanuló, aki egy különleges noteszre bukkan, a Death Note-ra. Bárki neve, akit a noteszba írnak, meghal. Light úgy dönt, hogy megtisztítja a világot a gonosztól, de hamarosan egy titokzatos nyomozó, L nyomába ered.', '2006-10-04', 'R-17+', 'Befejezett', 'TV', '2006 Ősz', 'Hidden Leaf Team', 8.6, '2006-10-04', 1, '37', 37, 'https://www.youtube-nocookie.com/embed/Vt_3c8BgxV4?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('50739', 'https://cdn.myanimelist.net/images/anime/1240/133638l.webp', 'https://image.tmdb.org/t/p/original/eusdD22WIeV27BVQPSJz6YONtqf.jpg', 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken', 'The Angel Next Door Spoils Me Rotten', 'Amane Fujimiya egy magányos középiskolás fiú, aki egy napon találkozik szomszédjával, Mahiru Shiinával, akit az iskolában angyalnak hívnak. Amikor Mahiru észreveszi Amane rendetlen életmódját, eldönti, hogy gondoskodik róla.', '2023-01-07', 'PG-13', 'Befejezett', 'TV', '2023 Tél', 'Muteki Fansub', 9.0, '2023-01-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/IUq59ARXtdg?enablejsapi=1&wmode=opaque&autoplay=0'),
-('61773', 'https://cdn.myanimelist.net/images/anime/1148/150376l.webp', 'https://image.tmdb.org/t/p/original/kARAcjWmKnb9mnDPRTU9zxs5Ad2.jpg', 'Let''s Play: Quest-darake no My Life', 'Let''s Play', 'Főiskolai évei alatt Sam Young órákat töltött kaland-logikai játékának, a Ruminate-nek a fejlesztésével. Annak ellenére, hogy gyerekként nagyon beteg volt, Sam igazi játékfejlesztő szeretne lenni. De amikor kedvenc játékstreamere, Marshall Law kipróbálja a játékot, szörnyen félreérti, és kijelenti, hogy ez a legrosszabb játék, amit valaha játszott. Ennek eredményeként rajongói negatív értékelésekkel bombázzák Sam játékát, veszélybe sodorva ezzel az álmait.<br><br>A helyzetet tovább rontja, hogy Marshall Sam új szomszédja lesz, nem tudva, hogy ő az a fejlesztő, akit olyan keményen kritizált. Bár Marshall gondoskodónak és kedvesnek tűnik, Samnek nehézséget okoz, hogy barátságot kötjön vele. Mielőtt második játékát, az Evermake-et kifejlesztheti, Samnek először ki kell találnia, hogyan hozhatja helyre tönkrement hírnevét.', '2025-10-02', 'PG-13', 'Befejezett', 'TV', '2025 ŐSZ', 'Rudolfskysub', 1, '2025-10-02', 6.76, '12', 12, 'https://www.youtube-nocookie.com/embed/ZmvyXUE_t_k?enablejsapi=1&wmode=opaque&autoplay=0'),
+('61773', 'https://cdn.myanimelist.net/images/anime/1148/150376l.webp', 'https://image.tmdb.org/t/p/original/kARAcjWmKnb9mnDPRTU9zxs5Ad2.jpg', 'Let''s Play: Quest-darake no My Life', 'Let''s Play', 'Főiskolai évei alatt Sam Young órákat töltött kaland-logikai játékának, a Ruminate-nek a fejlesztésével. Annak ellenére, hogy gyerekként nagyon beteg volt, Sam igazi játékfejlesztő szeretne lenni. De amikor kedvenc játékstreamere, Marshall Law kipróbálja a játékot, szörnyen félreérti, és kijelenti, hogy ez a legrosszabb játék, amit valaha játszott. Ennek eredményeként rajongói negatív értékelésekkel bombázzák Sam játékát, veszélybe sodorva ezzel az álmait. A helyzetet tovább rontja, hogy Marshall Sam új szomszédja lesz, nem tudva, hogy ő az a fejlesztő, akit olyan keményen kritizált. Bár Marshall gondoskodónak és kedvesnek tűnik, Samnek nehézséget okoz, hogy barátságot kötjön vele. Mielőtt második játékát, az Evermake-et kifejlesztheti, Samnek először ki kell találnia, hogyan hozhatja helyre tönkrement hírnevét.', '2025-10-02', 'PG-13', 'Befejezett', 'TV', '2025 ŐSZ', 'Rudolfskysub', 1, '2025-10-02', 6.76, '12', 12, 'https://www.youtube-nocookie.com/embed/ZmvyXUE_t_k?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('57555', 'https://cdn.myanimelist.net/images/anime/1763/150638l.webp', 'https://image.tmdb.org/t/p/original/xVlpyPgAjZiCcFYnKu87CNj55cu.jpg', 'Chainsaw Man Movie: Reze-hen', 'Chainsaw Man – The Movie: Reze Arc', 'A Chainsaw Man 1. évada után való folytatás.', '2025-09-19', '17+', 'Befejezett', 'Movie', '2025 ŐSZ', 'Muteki Fansub', 9.10, '2025-09-19', 1, '1', 1, 'https://www.youtube-nocookie.com/embed/VfoZp7CmOkE?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('42897', 'https://cdn.myanimelist.net/images/anime/1695/111486l.jpg', 'https://www.themoviedb.org/t/p/original/xNd77OTbhuqp8nMZzv55USSRJDo.jpg', 'Horimiya', 'Horimiya', 'Hori Kyoko látszatra egy átlagos tizenéves lánynak tűnhet, ám ez koránt sem igaz. A munkamániás szülei távollétében vigyáznia kell kisöccsére, Sotára, emellett főznie és takarítania is kell magukra. Ennek következtében nincs ideje a szokásos tinik társadalmi életét élnie. Erős felelősségtudata mellett nem hogy a karaokét, de még egy fél órás fagyizást sem engedhet meg magának tanítás után. Bárhová hívják barátai, ügyesen kibújik a tényleges válasz alól. Ám egy nap véletlenül találkozik valakivel, aki mint később kiderült, nem is annyira idegen, a látszatra csendes, szemüveges, sötét jellemű, pletykák szerint otaku osztálytársával, Miyamura Izumival. Később maga Hori jön rá, hogy bármit, amit gondolt, bármit, amit hallott a fiúról, az mind ellentéte annak, amint jobban megismeri a másik oldalát.', '2021-01-10', 'PG-13', 'Befejezett', 'TV', '2021 TÉL', 'AnimeGun Subs & Dark-Subs', 8.18, '2021-01-10', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/e4RCugyx5No?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('54856', 'https://image.tmdb.org/t/p/original/uj83treg58OvYnAAV9VF9p9qron.jpg', 'https://www.themoviedb.org/t/p/original/mNFcBM82O0AG5pU9JwOcJqH98G9.jpg', 'Horimiya: Piece', 'Horimiya: The Missing Pieces', 'Hori Kyoko látszatra egy átlagos tizenéves lánynak tűnhet, ám ez koránt sem igaz. A munkamániás szülei távollétében vigyáznia kell kisöccsére, Sotára, emellett főznie és takarítania is kell magukra. Ennek következtében nincs ideje a szokásos tinik társadalmi életét élnie. Erős felelősségtudata mellett nem hogy a karaokét, de még egy fél órás fagyizást sem engedhet meg magának tanítás után. Bárhová hívják barátai, ügyesen kibújik a tényleges válasz alól. Ám egy nap véletlenül találkozik valakivel, aki mint később kiderült, nem is annyira idegen, a látszatra csendes, szemüveges, sötét jellemű, pletykák szerint otaku osztálytársával, Miyamura Izumival. Később maga Hori jön rá, hogy bármit, amit gondolt, bármit, amit hallott a fiúról, az mind ellentéte annak, amint jobban megismeri a másik oldalát.', '2023-07-01', 'PG-13', 'Befejezett', 'TV', '2023 NYÁR', 'AnimeTrix', 8.12, '2023-07-01', 1, '13', 13, 'https://www.youtube-nocookie.com/embed/MU-Vk5R0vVY?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('50695', 'https://www.themoviedb.org/t/p/original/yuelUbcko5B25UgUKe30B3al2Z9.jpg', 'https://www.themoviedb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost', 'MF Ghost', 'A nagyon is közeli jövőben az elektromos önvezető autók már elterjedtnek számítanak Japán szerte. Kanata Livington, aki kivételes tehetségnek számít az autóversenyzés terén, éppen befejezte angliai tanulmányait, és hazatér a belső égésű benzinmotorral felszerelt kocsijával az immáron sofőr nélkül száguldó, elektromos autók hazájába.', '2023-10-02', 'PG-13', 'Befejezett', 'TV', '2023 ŐSZ', 'Akio-Fansub, AnimeDrive', 7.56, '2023-10-02', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zNWZjjkKfXs?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('57559', 'https://cdn.myanimelist.net/images/anime/1037/145338l.webp', 'https://image.tmdb.org/t/p/original/qEqLerjgjX9BL1fsqRc4MoWzqIU.jpg', 'MF Ghost 2nd Season', 'MF Ghost Season 2', 'Az MF Ghost 2. évadja', '2024-10-07', '13+', 'Befejezett', 'TV', '2024 ŐSZ', 'Lordminator', 7.81, '2024-10-07', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/zn_3RAMZj9E?enablejsapi=1&wmode=opaque&autoplay=0'),
 ('60602', 'https://cdn.myanimelist.net/images/anime/1419/154458l.webp', 'https://image.tmdb.org/t/p/original/stEMpPdy4wRoHyNN7KmiLuOE0S0.jpg', 'MF Ghost 3rd Season', 'MF Ghost Season 3', 'MF Ghost 3. évadja.', '2026-01-01', '13+', 'Fut', 'TV', '2026 TÉL', 'Lordminator', 8.03, '2026-01-01', 1, '?', 5, 'https://www.youtube-nocookie.com/embed/hUcDI5hSBPo?enablejsapi=1&wmode=opaque&autoplay=0'),
-('877', 'https://cdn.myanimelist.net/images/anime/2/11232l.webp', 'https://image.tmdb.org/t/p/original/xqbimh1vOdiGAYnu0bz3y3TcIBj.jpg', 'Nana', 'Nana (Szinkronos)', 'Tartalmazza a Nana Soushuuhen: Junko no Heya epizódokat, azaz a 11,5., a 21,5. és a 36,5. részeket, ezek mindig az előttük játszódó egységeket dolgozzák fel. A narrálással (egy másik szereplő elbeszélésével) és a külsős megfigyeléssel lesz kicsit másabb. Így a sztori egyes részei kicsit más megvilágításba kerülnek. Történet: Két huszonéves lány tart Tokióba, hogy megvalósítsák nagyon különböző álmaikat, és mindkettőjüket Nanának hívják. Komatsu Nana egy vidéki polgári család lánya, naív, nyílt, és folyton szerelmes; Osaki Nana egy félárva punkzenész - határozott, kemény lány, aki önmagát és karrierjét keresni megy a fővárosba. A sors úgy hozza, hogy a két Nana először a vonaton, majd Tokióban is találkozik, végül lakótársak lesznek. Szerelmek és szakítások, siker és bukás, boldogság és tragédiák kísérik a felnőtté válásukat.', '2006-04-05', 'R-17+', 'Befejezett', 'TV', '2006 TAVASZ', 'Szinkronos', 8.57, '2006-04-05', 1, '50', 50, 'https://www.youtube-nocookie.com/embed/Tad-n4Xh3nI?enablejsapi=1&wmode=opaque&autoplay=0');
+('877', 'https://cdn.myanimelist.net/images/anime/2/11232l.webp', 'https://image.tmdb.org/t/p/original/xqbimh1vOdiGAYnu0bz3y3TcIBj.jpg', 'Nana', 'Nana (Szinkronos)', 'Tartalmazza a Nana Soushuuhen: Junko no Heya epizódokat, azaz a 11,5., a 21,5. és a 36,5. részeket, ezek mindig az előttük játszódó egységeket dolgozzák fel. A narrálással (egy másik szereplő elbeszélésével) és a külsős megfigyeléssel lesz kicsit másabb. Így a sztori egyes részei kicsit más megvilágításba kerülnek. Történet: Két huszonéves lány tart Tokióba, hogy megvalósítsák nagyon különböző álmaikat, és mindkettőjüket Nanának hívják. Komatsu Nana egy vidéki polgári család lánya, naív, nyílt, és folyton szerelmes; Osaki Nana egy félárva punkzenész - határozott, kemény lány, aki önmagát és karrierjét keresni megy a fővárosba. A sors úgy hozza, hogy a két Nana először a vonaton, majd Tokióban is találkozik, végül lakótársak lesznek. Szerelmek és szakítások, siker és bukás, boldogság és tragédiák kísérik a felnőtté válásukat.', '2006-04-05', 'R-17+', 'Befejezett', 'TV', '2006 TAVASZ', 'Szinkronos', 8.57, '2006-04-05', 1, '50', 50, 'https://www.youtube-nocookie.com/embed/Tad-n4Xh3nI?enablejsapi=1&wmode=opaque&autoplay=0'),
+('61142', 'https://cdn.myanimelist.net/images/anime/1025/150482l.webp', 'https://image.tmdb.org/t/p/original/vhF2LhGE0pGLtA7RHpACpP87H64.jpg', 'Sawaranaide Kotesashi-kun', 'Hands Off: Sawaranaide Kotesashi-kun', 'Kotesashi Kouyou, a kiemelkedően tehetséges masszőr sportorvos szeretne lenni, ezért a középiskolát a Seiwa Akadémián kezdi meg, remélve, hogy ösztöndíjjal felvételt nyer majd az intézet orvosi egyetemére is. Hogy fedezni tudja a megélhetését, elvállalja az iskola kollégiumának gondnokságát, majd hamarosan egy egész csapat, rendkívül tehetséges és különc sportoló lányról kell gondoskodnia.', '2025-10-06', '17+', 'Befejezett', 'TV', '2025 ŐSZ', 'AsakuraTeam', 6.16, '2025-10-06', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/z5v3pIg35Lw?enablejsapi=1&wmode=opaque&autoplay=0'),
+('22319', 'https://animedrive.hu/cover/97.webp', 'https://image.tmdb.org/t/p/original/uQNMXlsim9jrsY9MdU6dqTlQbZD.jpg', 'Tokyo Ghoul', 'Tokyo Ghoul', 'Furcsa gyilkosságok történnek Tokyoban. Rémmesébe illő, maszkot viselő lények, ghoulok az elkövetők, akik teljesen beolvadnak a társadalomba. Egy átlagos, egyetemi diák, Kaneki megismerkedik egy hasonló érdeklődésű lánnyal, Rizével, de nem tudja, hogy ez a találkozás egy éjszaka alatt felforgatja az életét.', '2014-07-04', '17+', 'Befejezett', 'TV', '2014 NYÁR', 'Zahuczky Sub Team', 7.79, '2014-07-04', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/vGuQeQsoRgU?enablejsapi=1&wmode=opaque&autoplay=0'),
+('27899', 'https://cdn.myanimelist.net/images/anime/1889/123307l.webp', 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/tokyo-ghoul-re-season-2-poster.jpg', 'Tokyo Ghoul 2.évad', 'Tokyo Ghoul √A', 'Ken Kaneki végre elfogadta azt a szörnyeteg, húsevő részét, amitől oly sokáig félt és megvetett. Miután megszökött a fogságból és a kínzásokból, Kaneki csatlakozik az Aogiri Tree - ahhoz a harcias ghoul szervezethez, amely elrabolta őt, ami arra készteti barátait, hogy megkérdőjelezzék valódi indítékát és hűségét.Ahogy a kormány és a ghoulok közötti feszültség egyre nő, a Ghoulok Elleni Bizottság, a kormány ghoul-ellenes szakosított ügynöksége fokozza erőfeszítéseit, hogy teljesen megtisztítsa Tokiót a ghouloktól. Ez veszélyezteti Kaneki barátainak és egykori bajtársainak - az Anteiku kávézó ghouljainak - átmeneti békéjét. A veszélyes helyzet tudatában Kaneki számos csatával néz szembe, amelyek során értékes, múlandó emberségét teszi kockára.', '2015-01-09', '17+', 'Befejezett', 'TV', '2015 TÉL', 'Naruto-Kun', 7.03, '2015-01-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/v9fgZUBfZjk?enablejsapi=1&wmode=opaque&autoplay=0'),
+('36511', 'https://animedrive.hu/cover/101.webp', 'https://image.tmdb.org/t/p/original/uQNMXlsim9jrsY9MdU6dqTlQbZD.jpg', 'Tokyo Ghoul:Re', 'Tokyo Ghoul:re', 'A Commission of Counter Ghoul az egyetlen szervezet, mely felveszi a harcot a ghoulokkal szemben, és képesek bármilyen eszközt bevetni a cél érdekében. A legújabb fegyverük ebben a rejtett háborúban még kísérleti fázisban van, és ghoul erővel ruházza fel a nyomozóikat. Sem az eljárás, sem a csapat nem volt még tesztelve, ezért Haise Sasaki kapja a feladatot, hogy kiképezze őket. Nehéz helyzetbe kerül, mert nem csak a saját maga bizonytalanságával kell megküzdenie, de a csapata valamennyi tagjának elég problémás személyisége van.', '2018-04-03', '17+', 'Befejezett', 'TV', '2018 TAVASZ', 'Naruto-Kun', 6.37, '2018-04-03', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/dZ36ToJLHtA?enablejsapi=1&wmode=opaque&autoplay=0'),
+('37799', 'https://cdn.myanimelist.net/images/anime/1545/121995l.webp', 'https://image.tmdb.org/t/p/original/uQNMXlsim9jrsY9MdU6dqTlQbZD.jpg', 'Tokyo Ghoul:Re 2 ', 'Tokyo Ghoul:Re 2', 'A Tsukiyama családi megsemmisítési művelet lezárása után a Commission of Counter Ghoul (röviden CCG) tagjai hatványozottan megnőttek hatalmukon, és továbbra is azt a célt követik, hogy Japánban minden ghoult megsemmisítsenek. Miután lemondott a Quinx Squadról,  a most érzelemmentesnek tűnő Haise Sasaki egyre több feladatot kezd el vállalni a CCG-től, a nehézségekre való tekintet nélkül.  Üres megnyilvánulásai ellenére Ken Kaneki emlékei felújulnak Haise-ban, belső konfliktusok állapotába kerülve.  Eközben új, hideg szívű viselkedése kihat a körülötte lévő emberekre. A Quinx Squad zavarban marad, és egyik tagjuk halálával kell megbirkózniuk korábbi mentoruk támogatása nélkül.', '2018-10-09', '17+', 'Befejezett', 'TV', '2018 ŐSZ', 'Naruto-Kun', 6.47, '2018-10-09', 1, '12', 12, 'https://www.youtube-nocookie.com/embed/UUeqpuZobBw?enablejsapi=1&wmode=opaque&autoplay=0');
 
 -- Anime-stúdió kapcsolatok beszúrása (a studio_lista táblából ID alapján)
 INSERT INTO `anime_studio` (`anime_id`, `studio_id`) 
@@ -59,7 +64,12 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND s.studio_nev = 'MAPPA')
    OR (a.angol_cim = 'MF Ghost Season 3' AND s.studio_nev = 'Felix Film')
    OR (a.angol_cim = 'Nana (Szinkronos)' AND s.studio_nev = 'Madhouse')
    OR (a.angol_cim = 'Horimiya' AND s.studio_nev = 'CloverWorks')
-   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND s.studio_nev = 'CloverWorks');
+   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND s.studio_nev = 'CloverWorks')
+   OR (a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND s.studio_nev = 'Quad')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND s.studio_nev = 'Studio Pierrot')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND s.studio_nev = 'Studio Pierrot')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND s.studio_nev = 'Studio Pierrot')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND s.studio_nev = 'Studio Pierrot');
 
 -- Anime-címke kapcsolatok beszúrása (a cimke_lista táblából ID alapján)
 INSERT INTO `anime_cimke` (`anime_id`, `cimke_id`)
@@ -99,7 +109,33 @@ WHERE (a.angol_cim = 'Chainsaw Man' AND c.cimke_nev = 'Action')
    OR (a.angol_cim = 'Horimiya' AND c.cimke_nev = 'Romance')
    OR (a.angol_cim = 'Horimiya' AND c.cimke_nev = 'Shounen')
    OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND c.cimke_nev = 'Romance')
-   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND c.cimke_nev = 'Shounen');
+   OR (a.angol_cim = 'Horimiya: The Missing Pieces' AND c.cimke_nev = 'Shounen')
+   OR (a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND c.cimke_nev = 'Sports')
+   OR (a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND c.cimke_nev = 'Ecchi')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Action')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Mystery')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Horror')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Psychological')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Supernatural')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'Tokyo Ghoul' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND c.cimke_nev = 'Action')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND c.cimke_nev = 'Fantasy')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND c.cimke_nev = 'Horror')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND c.cimke_nev = 'Suspense')
+   OR (a.angol_cim = 'Tokyo Ghoul √A' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND c.cimke_nev = 'Action')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND c.cimke_nev = 'Fantasy')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND c.cimke_nev = 'Horror')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND c.cimke_nev = 'Suspense')
+   OR (a.angol_cim = 'Tokyo Ghoul:re' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Action')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Drama')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Horror')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Mystery')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Psychological')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Seinen')
+   OR (a.angol_cim = 'Tokyo Ghoul:Re 2' AND c.cimke_nev = 'Supernatural');
 
 
 -- Részek beszúrása - Chainsaw Man (12 rész)
@@ -339,6 +375,82 @@ SELECT id, 47, '44. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkr
 SELECT id, 48, '45. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
 SELECT id, 49, '46. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)' UNION ALL
 SELECT id, 50, '47. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Nana (Szinkronos)';
+
+-- Részek beszúrása - Hands Off: Sawaranaide Kotesashi-kun (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun';
+
+-- Részek beszúrása - Tokyo Ghoul (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul';
+
+-- Részek beszúrása - Tokyo Ghoul √A (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul √A';
+
+-- Részek beszúrása - Tokyo Ghoul:re (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:re';
+
+-- Részek beszúrása - Tokyo Ghoul:Re 2 (12 rész)
+INSERT INTO `reszek` (`anime_id`, `sorrend`, `resz`, `lathatosag`)
+SELECT id, 1, '1. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 2, '2. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 3, '3. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 4, '4. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 5, '5. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 6, '6. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 7, '7. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 8, '8. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 9, '9. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 10, '10. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 11, '11. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2' UNION ALL
+SELECT id, 12, '12. rész', 1 FROM anime_adatlap WHERE angol_cim = 'Tokyo Ghoul:Re 2';
+
 
 -- Forrás elemek - Nana (Szinkronos) (Videa linkek - 50 rész)
 INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
@@ -744,6 +856,81 @@ SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9d669499ea' FROM fo
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/baae22e48c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 3 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/21c3df38eb' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 4 UNION ALL
 SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a5171b76a4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'MF Ghost Season 3' AND r.sorrend = 5;
+
+-- Forrás elemek - Hands Off: Sawaranaide Kotesashi-kun (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/fdecea58b2' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/3a7aa7b0d9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/719649f14e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4edfc9b24e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/eccc761cfd' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ddc111900b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/78bb18f4c5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/55c124be67' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/f3fb45b5fe' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c5f72abfe1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/e21d09f8f5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/81f3049662' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Hands Off: Sawaranaide Kotesashi-kun' AND r.sorrend = 12;
+
+-- Forrás elemek - Tokyo Ghoul (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/e0a35311da' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/cb180adcf2' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/eaf902bae9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/fdf3bb29b7' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9b9d26ff1b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/fe1f07ca5c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/1eaeeb3d3b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/cbd5652f21' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4f86e0e159' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/200ce4a234' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4e2a293fa1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/4769a2968f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul' AND r.sorrend = 12;
+
+-- Forrás elemek - Tokyo Ghoul √A (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/77c4857cf5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c3d74053df' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/c8bde6eba3' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/f95103e905' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7e7f79bbb9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d1c8f93fde' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/058639ca3c' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/9d39e31003' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/6c0a256112' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/993ec1e931' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/bc74255731' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/29154c662b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul √A' AND r.sorrend = 12;
+
+-- Forrás elemek - Tokyo Ghoul:re (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ba85a94db1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7b10f94e0f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d3bcaf894e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7a530cfdfc' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/6ed57904e5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/e3b1139564' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/33ac33ef44' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ef8500308e' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/53737bbcc4' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/3e317068b3' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ea0cd0857a' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/b5bf126dd6' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:re' AND r.sorrend = 12;
+
+-- Forrás elemek - Tokyo Ghoul:Re 2 (Indavideo beágyazott linkek)
+INSERT INTO `forras_elem` (`forras_id`, `resz_id`, `link`)
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/7c9da0082f' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 1 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/38b293e8c5' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 2 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/422b4f2708' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 3 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/a38623e2fe' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 4 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/b6afb8e625' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 5 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/d161653b28' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 6 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/3fbadf4fb1' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 7 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/1dbfbefa62' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 8 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/faf9388615' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 9 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/2f406ed6c9' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 10 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/cc543e8b80' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 11 UNION ALL
+SELECT ft.id, r.id, 'https://embed.indavideo.hu/player/video/ff6fab7a0b' FROM forras_tipus ft, reszek r JOIN anime_adatlap a ON r.anime_id = a.id WHERE ft.nev = 'Indavideo' AND a.angol_cim = 'Tokyo Ghoul:Re 2' AND r.sorrend = 12;
 
 -- Lista elemek beszúrása (Felhasználók listái)
 -- AnimeFan2024 listaelemei
