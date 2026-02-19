@@ -44,7 +44,7 @@ CREATE TABLE `anime_adatlap` (
   `tipus` enum('TV','Film','OVA','ONA','Special') DEFAULT 'TV',
   `szezon` varchar(50) DEFAULT NULL,
   `keszito` varchar(255) DEFAULT NULL,
-  `ertekeles` decimal(3,1) DEFAULT NULL, 
+  `ertekeles` decimal(3,2) DEFAULT NULL,
   `feltoltes_ido` date NOT NULL DEFAULT (CURDATE()),
   `lathatosag` Boolean DEFAULT 1,
   `osszes_epizod` varchar(10) DEFAULT NULL,
