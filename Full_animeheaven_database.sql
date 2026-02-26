@@ -922,16 +922,12 @@ CREATE TABLE `profil_adatlap` (
 --
 
 INSERT INTO `profil_adatlap` (`id`, `email`, `felhasznalonev`, `jelszo`, `salt`, `profilkep`, `jogosultsag`) VALUES
-(1, 'tulajdonos@animeheaven.hu', 'Tulaj', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', '$2a$10$N9qo8uLOickgx2ZMRZoMye', '/profiles/tulaj.jpg', 5),
-(2, 'admin@animeheaven.hu', 'Admin', '$2a$10$abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQ', '$2a$10$abcdefghijklmnopqrs', '/profiles/admin.jpg', 4),
-(3, 'foszerkeszto@animeheaven.hu', 'FőSzerkesztő', '$2a$10$xyz123abc456def789ghi012jkl345mno678pqr901stu234vwx567', '$2a$10$xyz123abc456def789g', '/profiles/chief-editor.jpg', 3),
-(4, 'szerkeszto1@animeheaven.hu', 'Szerkesztő_Akira', '$2a$10$pqr901stu234vwx567yzA012BCD345EFG678HIJ901KLM234NOP567', '$2a$10$pqr901stu234vwx567y', '/profiles/editor1.jpg', 2),
-(5, 'szerkeszto2@animeheaven.hu', 'Szerkesztő_Rei', '$2a$10$QRS345TUV678WXY901ZAB234CDE567FGH890IJK123LMN456OPQ789', '$2a$10$QRS345TUV678WXY901Z', '/profiles/editor2.jpg', 2),
-(6, 'felhasznalo1@gmail.com', 'AnimeFan2024', '$2a$10$STU678VWX901YZA234BCD567EFG890HIJ123KLM456NOP789QRS012', '$2a$10$STU678VWX901YZA234B', '/profiles/user1.jpg', 1),
-(7, 'felhasznalo2@gmail.com', 'OtakuMaster', '$2a$10$TUV890WXY123ZAB456CDE789FGH012IJK345LMN678OPQ901RST234', '$2a$10$TUV890WXY123ZAB456C', '/profiles/user2.jpg', 1),
-(8, 'felhasznalo3@gmail.com', 'MangaReader', '$2a$10$UVW012XYZ345ABC678DEF901GHI234JKL567MNO890PQR123STU456', '$2a$10$UVW012XYZ345ABC678D', '/profiles/user3.jpg', 1),
-(9, 'inaktiv@example.com', 'InaktívUser', '$2a$10$VWX234YZA567BCD890EFG123HIJ456KLM789NOP012QRS345TUV678', '$2a$10$VWX234YZA567BCD890E', NULL, 0),
-(10, 'tesztuser@animeheaven.hu', 'TesztUser', '$2a$10$WXY456ZAB789CDE012FGH345IJK678LMN901OPQ234RST567UVW890', '$2a$10$WXY456ZAB789CDE012F', '/profiles/test.jpg', 1);
+(11, 'register@teszt.com', 'register', '$2b$10$dwFY7FVl94ap8W4kGXoETOi/R3.XCf1brBwyt.RXPVI/gH2yFyWxq', '$2b$10$Lir3BXDNwGxWcwvCbEarPu', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 4),
+(12, 'milan@animeheaven.hu', 'Milan', '$2b$10$k3crs9t475.j1U5ynfZ2i.LdMks60JHkaIRPzliBExmWPXQiSjQ3y', '$2b$10$Fk1c3IsypuEZLp20hL9Mb.', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 5),
+(13, 'boti@animeheaven.hu', 'Boti', '$2b$10$hAG8Zi82.S5wkd/gFmWETe1HJ/.MiwkVbjgvUw5nh3kN3nyYH8Y4S', '$2b$10$JYLYVULZJTHWQ6AdaSMovO', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 5),
+(14, 'roli@animeheaven.hu', 'Roli', '$2b$10$zwq5vis0xQPOaHabosyckObj2eYpKjji0UJOFO7qUefO4ZBOPgNuK', '$2b$10$8DvFig9x7xW3/XEoULWlXu', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 5),
+(15, 'zsolti@gmail.com', 'Zsolti', '$2b$10$JBsg8nhoGo3bdHgjlgjb2upYOpOsgXlxcfUTgAKdKC6SacC4BIjh6', '$2b$10$qI7BlTqGF8x5jFV.a2tlKe', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 1),
+(16, 'beni@gmail.com', 'Beni', '$2b$10$.hMcT.DlhDBIHDjOTOqB6usxYVKcUgLGpiLPUZJ1yaTO3FBBbTJBm', '$2b$10$Vyw7CtcxtprK.dg.wD0CIu', 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', 1);
 
 -- --------------------------------------------------------
 
