@@ -33,8 +33,6 @@ Az adatbázis telepítése két egyszerű lépésből áll:
 * `sample-data-full.sql` – minta (sample) adatok
 
 
-## Userek
-
 Email cím adott a táblázatban; Jelszó, a felhasználó név minden kicsivel és a végén `123`
 ---
 
