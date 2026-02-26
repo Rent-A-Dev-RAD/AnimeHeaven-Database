@@ -25,14 +25,17 @@ Az adatbázis telepítése két egyszerű lépésből áll:
 1. Indítsd el az **Apache** és **MySQL** szolgáltatásokat XAMPP-ban
 2. Nyisd meg a **phpMyAdmin** felületet
 3. Válaszd az **Importálás** menüpontot
-4. Tallózd be először a `setup.sql` fájlt és futtasd
-5. Ezután importáld az `sample-data-full.sql` fájlt
+4. Importáld a `Full_animeheaven_database.sql` fájlt
 
 ## Tartalom
 
 * `setup.sql` – adatbázis és táblák létrehozása
 * `sample-data-full.sql` – minta (sample) adatok
 
+
+## Userek
+
+Email cím adott a táblázatban; Jelszó, a felhasználó név minden kicsivel és a végén `123`
 ---
 
 *Készítette: Rent-A-Dev*
