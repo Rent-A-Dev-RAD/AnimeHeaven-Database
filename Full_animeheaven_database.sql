@@ -45,7 +45,7 @@ CREATE TABLE `anime_adatlap` (
   `keszito` varchar(255) DEFAULT NULL,
   `ertekeles` decimal(3,2) DEFAULT NULL,
   `feltoltes_ido` date NOT NULL DEFAULT curdate(),
-  `lathatosag` tinyint(1) DEFAULT 1,
+  `lathatosag` BOOLEAN DEFAULT 1,
   `osszes_epizod` varchar(10) DEFAULT NULL,
   `jelenlegi_epizod` int(11) DEFAULT NULL,
   `trailer` varchar(255) DEFAULT NULL
@@ -940,7 +940,7 @@ CREATE TABLE `reszek` (
   `anime_id` int(11) NOT NULL,
   `sorrend` int(11) DEFAULT NULL,
   `resz` varchar(25) DEFAULT NULL,
-  `lathatosag` tinyint(1) DEFAULT 1
+  `lathatosag` BOOLEAN DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
