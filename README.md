@@ -21,9 +21,10 @@ Az adatbázis telepítése két féle módon lehetséges egy egylépses és egy 
 ### Importálás
 
 1. **Egylépéses**
+
    Futtasd le a `Full_animeheaven_database.sql` fájlt. Ez létrehozza az adatbázist, szükséges táblákat és importálja az adatokat is ezzel kész is vagyunk.
 
-2. **Több lépéses**
+3. **Több lépéses**
 
    A) Az adatbázis és a táblák létrehozásához először futtasd le az `Animeheaven_database.sql`-t.
 
