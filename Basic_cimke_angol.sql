@@ -1,3 +1,5 @@
+USE animeheaven_database;
+
 INSERT INTO cimke_lista (cimke_nev) VALUES 
 ('Action'),
 ('Adventure'),

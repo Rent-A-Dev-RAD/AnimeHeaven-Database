@@ -1,6 +1,6 @@
 # AnimeHeaven-Database
 
-Ez a projekt egy **MySQL adatbázist** tartalmaz az *AnimeHeaven* alkalmazáshoz. A repository tartalmazza az adatbázis struktúráját, valamint mintaadatokat a gyors teszteléshez és fejlesztéshez.
+Ez a projekt egy **MySQL adatbázist** tartalmaz az *AnimeHeaven* weboldalhoz. A repository tartalmazza az adatbázis struktúráját, valamint mintaadatokat a gyors teszteléshez és fejlesztéshez.
 
 ## Követelmények
 
@@ -10,28 +10,24 @@ Ez a projekt egy **MySQL adatbázist** tartalmaz az *AnimeHeaven* alkalmazáshoz
 
 ## Telepítés
 
-Az adatbázis telepítése két egyszerű lépésből áll:
+Az adatbázis telepítése két féle módon lehetséges egy egylépses és egy több lépéses:
 
-1. **Adatbázis és táblák létrehozása**
-   Futtasd le a `setup.sql` fájlt. Ez létrehozza az adatbázist és a szükséges táblákat.
-
-2. **Mintaadatok importálása**
-   A struktúra létrehozása után futtasd le az `sample-data-full.sql` fájlt, amely sample adatokat tölt fel a táblákba.
-
-> ⚠️ Fontos: Először mindig a `setup.sql`-t futtasd le, csak utána az `sample-data-full.sql`-t.
-
-## Importálás XAMPP-ban (phpMyAdmin)
+### Felkészkészülés
 
 1. Indítsd el az **Apache** és **MySQL** szolgáltatásokat XAMPP-ban
 2. Nyisd meg a **phpMyAdmin** felületet
 3. Válaszd az **Importálás** menüpontot
-4. Importáld a `Full_animeheaven_database.sql` fájlt
+
+### Importálás
+
+1. **Egylépéses**
+   Futtasd le a `Full_animeheaven_database.sql` fájlt. Ez létrehozza az adatbázist, szükséges táblákat és importálja az adatokat is ezzel kész is vagyunk.
+
+2. **Több lépéses**
+   A) Az adatbázis és a táblák létrehozásához először futtasd le az `Animeheaven_database.sql`-t.
+   B) A `Basic_cimke_angol.sql`, `Osszes_studio.sql` és `Adat_insert.sql` sql fájl futattásának sorrendje már szabadon választott. 
 
 ## Tartalom
-
-* `setup.sql` – adatbázis és táblák létrehozása
-* `sample-data-full.sql` – minta (sample) adatok
-
 
 Email cím adott a táblázatban; Jelszó, a felhasználó név minden kicsivel és a végén `123`
 ---
