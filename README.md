@@ -24,7 +24,9 @@ Az adatbázis telepítése két féle módon lehetséges egy egylépses és egy 
    Futtasd le a `Full_animeheaven_database.sql` fájlt. Ez létrehozza az adatbázist, szükséges táblákat és importálja az adatokat is ezzel kész is vagyunk.
 
 2. **Több lépéses**
+
    A) Az adatbázis és a táblák létrehozásához először futtasd le az `Animeheaven_database.sql`-t.
+
    B) A `Basic_cimke_angol.sql`, `Osszes_studio.sql` és `Adat_insert.sql` sql fájl futattásának sorrendje már szabadon választott. 
 
 ## Tartalom
